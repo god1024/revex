@@ -12,3 +12,6 @@ to run the service, type:
 
 gradle run
 
+and then run:
+
+curl "http://localhost:9090/transfer/transfer?fromAccount=16&toAccount=3&amount=1"
